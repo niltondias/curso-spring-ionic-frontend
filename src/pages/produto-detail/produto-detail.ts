@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { ProdutoDTO } from '../../models/produto.dto';
 import { ProdutoService } from '../../services/domain/produto.service';
-import { Observable } from 'rxjs/Rx';
 import { API_CONFIG } from '../../config/api.cofig';
 import { CartService } from '../../services/domain/cart.service';
 
